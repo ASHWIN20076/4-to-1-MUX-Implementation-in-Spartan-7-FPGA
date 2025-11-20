@@ -69,7 +69,7 @@ assign w[4]=(s[1])&&(s[0])&&I[3];
 assign Y=w[1]||w[2]||w[3]||w[4];
 endmodule
 ```
-## Constraint file for Seven-Segment Display
+## Constraint file for 4:1 Multiplexer
 ```
 set_property -dict {PACKAGE_PIN V2 IOSTANDARD LVCMOS33} [get_ports {I[0]}]
 set_property -dict {PACKAGE_PIN U2 IOSTANDARD LVCMOS33} [get_ports {I[1]}]
